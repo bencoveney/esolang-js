@@ -1,10 +1,12 @@
 #!/usr/bin/env node
 
-import * as Rx from "rxjs";
+import { loadFile } from "./loadFile";
+import { getArguments } from "./yargs";
 
-export function Init() {
-	const observable = Rx.of("Hello World");
-	observable.subscribe(console.log);
-}
-
-Init();
+const args = getArguments();
+const file = loadFile(args.path);
+file.subscribe(
+	file => console.log(file.split("\n").slice(0, 5).join("\n")),
+	error => console.error(error.message),
+	() => console.log("Done!")
+);

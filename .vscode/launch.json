@@ -12,6 +12,9 @@
 			"preLaunchTask": "tsc: build - tsconfig.json",
 			"outFiles": [
 				"${workspaceFolder}/bin/**/*.js"
+			],
+			"args": [
+				"src/index.ts"
 			]
 		}
 	]
