@@ -1,0 +1,19 @@
+{
+  "name": "esolang",
+  "version": "0.0.1",
+  "description": "Esolang implementations in TypeScript",
+  "main": "bin/index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://git.bencoveney.com/bencoveney/esolang-js.git"
+  },
+  "keywords": [
+    "Esolang",
+    "TypeScript"
+  ],
+  "author": "Ben Coveney",
+  "license": "MIT"
+}
