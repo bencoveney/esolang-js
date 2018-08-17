@@ -2,9 +2,9 @@
   "name": "esolang",
   "version": "0.0.1",
   "description": "Esolang implementations in TypeScript",
-  "main": "bin/index.js",
+  "main": "./bin/index.js",
   "scripts": {
-    "test": "test"
+    "test": "tsc"
   },
   "repository": {
     "type": "git",
@@ -19,5 +19,8 @@
   "dependencies": {
     "rxjs": "^6.2.2",
     "typescript": "^3.0.1"
+  },
+  "bin": {
+    "esolang": "./bin/index.js"
   }
 }

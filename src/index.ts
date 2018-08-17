@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 import * as Rx from "rxjs";
 
 export function Init() {
