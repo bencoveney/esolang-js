@@ -15,5 +15,9 @@
     "TypeScript"
   ],
   "author": "Ben Coveney",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "rxjs": "^6.2.2",
+    "typescript": "^3.0.1"
+  }
 }
